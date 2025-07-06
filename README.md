@@ -22,5 +22,11 @@ Um simples Jogo da Velha desenvolvido para dois jogadores locais. O objetivo é 
 
 ## Membros
    1. Giovana Fernandes Nascimento 
+      - Iniciou o Trello e realizou a parte de JavaScript
    2. Ana Beatriz Buese Sureke Henrique
+      - Terminou o Trello e fez a parte de HTML
    3. Diego Camargo Cassita da Silva
+      - Realizou a parte de CSS
+
+## Trello
+   - https://trello.com/invite/b/686ac60150fbbe421e7ec8d9/ATTIde990b9b4912bf14b312f491301b1b93EA28C6E1/jogo-da-velha
