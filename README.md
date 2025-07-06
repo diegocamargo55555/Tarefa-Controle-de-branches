@@ -24,3 +24,6 @@ Um simples Jogo da Velha desenvolvido para dois jogadores locais. O objetivo é 
    1. Giovana Fernandes Nascimento 
    2. Ana Beatriz Buese Sureke Henrique
    3. Diego Camargo Cassita da Silva
+
+## Trello
+   - https://trello.com/invite/b/686ac60150fbbe421e7ec8d9/ATTIde990b9b4912bf14b312f491301b1b93EA28C6E1/jogo-da-velha
