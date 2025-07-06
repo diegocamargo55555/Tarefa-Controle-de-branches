@@ -64,6 +64,32 @@
             }
         }
 
+        function verificarVitoria() {
+            return combinacoesVencedoras.some(combinacao => {
+                return combinacao.every(indice => {
+                    return celulas[indice].textContent === jogadorAtual;
+                });
+            });
+        }
+
+        function obterComboVencedor() {
+            return combinacoesVencedoras.find(combinacao => {
+                return combinacao.every(indice => {
+                    return celulas[indice].textContent === jogadorAtual;
+                });
+            });
+        }
+
+        function destacarCelulasVencedoras(combo) {
+            combo.forEach(indice => {
+                celulas[indice].classList.add('vencedor');
+            });
+        }
+
+        function verificarEmpate() {
+            return Array.from(celulas).every(celula => celula.textContent !== '');
+        }
+
         
     </script>
 </body>
