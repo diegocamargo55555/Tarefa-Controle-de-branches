@@ -90,7 +90,20 @@
             return Array.from(celulas).every(celula => celula.textContent !== '');
         }
 
-        
+        function reiniciarJogo() {
+            jogadorAtual = 'X';
+            jogoAtivo = true;
+            celulas.forEach(celula => {
+                celula.textContent = '';
+                celula.classList.remove('vencedor');
+            });
+            status.textContent = `Vez do jogador ${jogadorAtual}`;
+        }
+
+        celulas.forEach(celula => celula.addEventListener('click', lidarComCliqueCelula));
+        botaoReiniciar.addEventListener('click', reiniciarJogo);
+
+        status.textContent = `Vez do jogador ${jogadorAtual}`;
     </script>
 </body>
 
